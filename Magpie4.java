@@ -49,7 +49,7 @@ public class Magpie4
         }
 
         // Responses which require transformations
-            else if (findKeyword(statement, "I want to", 0) >= 0)
+        else if (findKeyword(statement, "I want to", 0) >= 0)
         {
             response = transformIWantToStatement(statement);
         }
